@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+
+
+body {
+    background-image: url("./image/img.jpg");
+    background-size: cover;            /* 画面にフィット */
+    background-position: center;       /* 中央寄せ */
+    background-repeat: no-repeat;      /* 繰り返さない */
+    background-attachment: fixed;      /* スクロールしても背景は固定 */
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 40px;
+    text-align: center;
+  }
+
+
+  h1 {
+    color: #ffffff;
+    font-size: 4rem;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+    margin-top: 80px;
+    background-color: rgba(0, 0, 0, 0.4);
+
+    padding: 20px 40px;
+    border-radius: 12px;
+  }
+
+  button {
+    background-color: #1a0000;              /* 血のような暗赤色 */
+    color: #ff4d4d;                          /* 不気味な赤文字 */
+    border: 2px solid #660000;
+    padding: 12px 24px;
+    font-size: 1.3rem;
+    font-family: 'Creepster', cursive;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.6);
+    transition: 0.3s;
+    letter-spacing: 1px;
+
+  }
+
+  button:hover {
+    background-color: #330000;
+    color: #fff;
+    transform: scale(1.05) rotate(-1deg);
+    box-shadow: 0 0 30px rgba(255, 0, 0, 0.9);
+  }
